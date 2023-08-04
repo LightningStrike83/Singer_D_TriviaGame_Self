@@ -25,8 +25,8 @@ function loadQuestion() {
 function loadAnswer1() {
     document.querySelector('#answer_1_box').classList.add("wrong");
     document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("right");
-    document.querySelector('#answer_4_box').classList.add("wrong");
+    document.querySelector('#answer_3_box').classList.add("wrong");
+    document.querySelector('#answer_4_box').classList.add("right");
     
     let rightAnswer = document.querySelectorAll (".right");
     let wrongAnswer = document.querySelectorAll (".wrong")
@@ -78,8 +78,8 @@ function loadAnswer1() {
 }
 
 function loadAnswer2() {
-    document.querySelector('#answer_1_box').classList.add("right");
-    document.querySelector('#answer_2_box').classList.add("wrong");
+    document.querySelector('#answer_1_box').classList.add("wrong");
+    document.querySelector('#answer_2_box').classList.add("right");
     document.querySelector('#answer_3_box').classList.add("wrong");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
@@ -133,9 +133,9 @@ function loadAnswer2() {
 }
 
 function loadAnswer3() {
-    document.querySelector('#answer_1_box').classList.add("right");
+    document.querySelector('#answer_1_box').classList.add("wrong");
     document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("wrong");
+    document.querySelector('#answer_3_box').classList.add("right");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
@@ -188,8 +188,8 @@ function loadAnswer3() {
 }
 
 function loadAnswer4() {
-    document.querySelector('#answer_1_box').classList.add("wrong");
-    document.querySelector('#answer_2_box').classList.add("right");
+    document.querySelector('#answer_1_box').classList.add("right");
+    document.querySelector('#answer_2_box').classList.add("wrong");
     document.querySelector('#answer_3_box').classList.add("wrong");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
@@ -243,9 +243,9 @@ function loadAnswer4() {
 }
 
 function loadAnswer5() {
-    document.querySelector('#answer_1_box').classList.add("wrong");
+    document.querySelector('#answer_1_box').classList.add("right");
     document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("right");
+    document.querySelector('#answer_3_box').classList.add("wrong");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
@@ -299,8 +299,8 @@ function loadAnswer5() {
 
 function loadAnswer6() {
     document.querySelector('#answer_1_box').classList.add("wrong");
-    document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("right");
+    document.querySelector('#answer_2_box').classList.add("right");
+    document.querySelector('#answer_3_box').classList.add("wrong");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
@@ -354,8 +354,8 @@ function loadAnswer6() {
 
 function loadAnswer7() {
     document.querySelector('#answer_1_box').classList.add("wrong");
-    document.querySelector('#answer_2_box').classList.add("right");
-    document.querySelector('#answer_3_box').classList.add("wrong");
+    document.querySelector('#answer_2_box').classList.add("wrong");
+    document.querySelector('#answer_3_box').classList.add("right");
     document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
@@ -410,8 +410,8 @@ function loadAnswer7() {
 function loadAnswer8() {
     document.querySelector('#answer_1_box').classList.add("wrong");
     document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("wrong");
-    document.querySelector('#answer_4_box').classList.add("right");
+    document.querySelector('#answer_3_box').classList.add("right");
+    document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
     let wrongAnswer = document.querySelectorAll (".wrong")
@@ -465,8 +465,8 @@ function loadAnswer8() {
 function loadAnswer9() {
     document.querySelector('#answer_1_box').classList.add("wrong");
     document.querySelector('#answer_2_box').classList.add("wrong");
-    document.querySelector('#answer_3_box').classList.add("right");
-    document.querySelector('#answer_4_box').classList.add("wrong");
+    document.querySelector('#answer_3_box').classList.add("wrong");
+    document.querySelector('#answer_4_box').classList.add("right");
     
     let rightAnswer = document.querySelectorAll (".right");
     let wrongAnswer = document.querySelectorAll (".wrong")
@@ -519,9 +519,9 @@ function loadAnswer9() {
 
 function loadAnswer10() {
     document.querySelector('#answer_1_box').classList.add("wrong");
-    document.querySelector('#answer_2_box').classList.add("wrong");
+    document.querySelector('#answer_2_box').classList.add("right");
     document.querySelector('#answer_3_box').classList.add("wrong");
-    document.querySelector('#answer_4_box').classList.add("right");
+    document.querySelector('#answer_4_box').classList.add("wrong");
     
     let rightAnswer = document.querySelectorAll (".right");
     let wrongAnswer = document.querySelectorAll (".wrong")
